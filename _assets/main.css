@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+}
+
+.header {
+  max-width: 100%;
+  background-size: cover;
+  width: 100%;
+  /*background-image: url('img/header-bg.jpeg');*/
+  /*background-image: url('img/header-bg2.jpg');*/
+  /*background-image: url('img/header-bg3.jpg');*/
+  background-color: #32b9b1;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-inner {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-container {
+  width: 100%;
+  padding: 100px 0px 100px 0px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: #ebebeb;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #ebebeb;
+}
+
+.subtitle span {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.contact-inner span {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.button-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.portfolio-button-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin: 70px 0px 31px 0px;
+  border: 5px solid #ebebeb;
+  color: #ebebeb;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.portfolio-button {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 600;
+  color: #444444;
+  border: 3px solid #444;
+  margin: 20px 0px 31px 0px;
+}
+
+
+.button:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+  color: #17313C;
+}
+
+.logo {
+  max-width: 50%;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 100%;
+}
+
+.content-inner {
+  max-width: 620px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #A1A1A1;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 40px 0px 40px 0px;
+}
+
+.portfolio-one {
+  background-color: #F2F2F2;
+  width: 100%;
+  display: inline-block;
+}
+
+.portfolio-two {
+  background-color: #F2f2f2;
+  width: 100%;
+  display: inline-block;
+}
+
+.portfolio-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.screenshot-left {
+  width: 55%;
+  float: left;
+}
+
+.text-right {
+  width: 40%;
+  text-align: center;
+  float: left;
+  padding: 20px 0px 40px 0px;
+}
+
+.text-right h4 {
+  color: #444;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.text-right p {
+  color: #a1a1a1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.safeguard, .drum-train, .scott {
+  max-width: 100%;
+}
+
+.safeguard:hover, .drum-train:hover, .scott:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color: #344450;
+}
+
+.contact {
+  background-color: #f2f2f2;
+  width: 100%;
+  display: inline-block;
+  margin: 60px 0px 0px 0px;
+}
+
+.contact-inner {
+  max-width: 620px;
+  margin: 0 auto;
+  border-top: 1px solid #D2D2D2;
+}
+
+.contact-inner h4 {
+  color: #444;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.copyright {
+  max-width: 1080px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #f2f2f2;
+  font-size: 10px;
+  font-weight: 100;
+  padding: 20px 0px 20px 0px;
+}
+
+.contact-inner p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #a4a4a4;
+}
+
+table {
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  padding: 10px 250px 10px 20px;
+}
+
+.testimonial-container {
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 1px;
+  border-top: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+  border-bottom: 3px solid #ebebeb;
+  margin: 0px 6% 0px 5%;
+}
+
+.testimonial-container h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #444;
+}
+
+.testimonial-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a4a4a4;
+  padding: 0px 40px 0px 40px;
+}
+
+.testimonial-container h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #444;
+}
+
+.sep-container {
+  width: 100%;
+}
+
+.sep {
+  margin: 0 auto;
+  width: 30%;
+  display: block;
+  padding: 90px 0px 50px 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .screenshot-left {
+    width: 100%;
+  }
+
+  .text-right {
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .text-container {
+    display: inline-block;
+    width: 100%;
+  }
+
+
+}
